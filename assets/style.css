@@ -1,0 +1,331 @@
+@font-face {
+    font-family: worksans;
+    src: url(./WorkSans-VariableFont_wght.ttf);
+}
+    @font-face {
+    font-family: didactgothic;
+    src: url(./DidactGothic-Regular.ttf);
+}    
+   
+@font-face {
+    font-family: fjallaone;
+    src: url(./FjallaOne-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 720px;
+    text-align: center;
+    margin: 20px 360px 152px 360px;
+}
+
+header p {
+    font-family: "worksans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    font-family: "didactgothic";
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 130px;
+    margin-bottom: 60px;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+}
+
+img {
+    margin-bottom: 118px;
+}
+
+header h2 {
+    font-family: "worksans";
+    font-size: 160px;
+    line-height: 187.68px;
+    font-weight: 400;
+}
+
+main {
+    width: 1440px;
+}
+
+section p {
+    font-family: "worksans";
+    font-size: 20px;
+    line-height: 23.46px;
+    letter-spacing: -5%;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-family: "didactgothic";
+    font-size: 112px;
+    line-height: 146.83px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+section h3 {
+    font-family: "worksans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    letter-spacing: -5%;
+    margin-bottom: 96px;
+}
+
+section a {
+    font-family: "fjallaone";
+    font-size: 16px;
+    line-height: 20.11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+section h4 {
+    font-family: "fjallaone";
+    font-size: 165px;
+    font-weight: 400;
+    line-height: 207.38px;
+    letter-spacing: -2%;
+    text-align: right;
+}
+
+.orbis, .galitos {
+    height: 826px;
+    padding: 150px 120px 100px 220px;
+}
+
+.rollr, .tretto {
+    height: 1056px;
+    padding: 250px 120px 230px 220px;
+}
+
+.orbis {
+    background: url(./portfolio2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.orbis p {
+    color: #9E9E9E;
+}
+
+.orbis h2 {
+    color: #FFFFFF;
+}
+
+.orbis h3 {
+    color: #9E9E9E;
+}
+
+.orbis a {
+   color: #FFFFFF;
+   border: 1px solid white;
+}
+
+.orbis h4 {
+    color: rgb(158, 158, 158, 0.4);
+}
+
+.rollr {
+    background: url(./portfolio3.png) no-repeat center;
+    background-size: cover;
+}
+
+.rollr p {
+    color: #666666;
+}
+
+.rollr h2 {
+    color: #000000;
+}
+
+.rollr h3 {
+    color: #666666;
+}
+
+.rollr a {
+    color: #000000;
+    border: 1px solid black;
+}
+
+.rollr h4 {
+    color: #666666;
+}
+
+.galitos {
+    background: url(./portfolio4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.galitos p {
+    color: #666666;
+}
+
+.galitos h2 {
+    color: #FFFFFF;
+}
+
+.galitos h3 {
+    color: #9E9E9E;
+}
+
+.galitos a {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.galitos h4 {
+    color: rgb(158, 158, 158, 0.3);
+}
+
+.tretto {
+    background: url(./portfolio5.png) no-repeat center;
+    background-size: cover;
+}
+
+.tretto p {
+    color: #666666;
+}
+
+.tretto h2 {
+    color: #000000;
+}
+
+.tretto h3 {
+    color: #666666;
+}
+
+.tretto a {
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.tretto h4 {
+    color: #666666;
+}
+
+.what-more {
+    height: 931px;
+    background-color: black;
+    padding: 130px 100px 100px 267px;
+}
+
+.what-more h2 {
+    font-family: "worksans";
+    font-size: 180px;
+    line-height: 211.14px;
+    letter-spacing: -20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 150px;
+    text-transform: none;
+}
+
+.what-more p {
+    font-family: "worksans";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: 1%;
+    color: #666666;
+    width: 700px;
+    margin: auto auto 70px 373px;
+}
+
+.what-more a {
+    font-family: "worksans";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70.38px;
+    letter-spacing: -5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 373px;
+    text-transform: lowercase;
+}
+
+footer {
+    width: 1440px;
+    text-align: center;
+    padding: 230px 369px 130px 369px;
+}
+
+ul li {
+    list-style: none;
+}
+
+footer a {
+    font-family: "didactgothic";
+    font-size: 160px;
+    line-height: 209.76px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+ul li:nth-of-type(1), ul li:nth-of-type(2) {
+    margin-bottom: 150px;
+}
+
+ul li:nth-child(3) {
+    margin-bottom: 220px;
+}
+
+.orbis a:hover, .galitos a:hover {
+    background-color: white;
+    color: black;
+}
+
+.rollr a:hover, .tretto a:hover {
+    background-color: black;
+    color: white;
+}
+
+.hovering1:hover+h4 {
+    color: white;
+}
+
+.hovering2:hover+h4 {
+    color: #000000;
+}
+
+.hovering1 {
+    height: 52px;
+    width: 85.9px;
+}
+
+.hovering2 {
+    height: 52px;
+    width: 85.9px;
+}
+
+.what-more a:hover {
+    text-decoration: underline;
+    color: #9e9e9e;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@keyframes pulsate { 
+    0% { transform: scale3d(1, 1, 1); } 
+    50% { transform: scale3d(1.50, 1.50, 1.50); } 
+    100% { transform: scale3d(1, 1, 1); }
+  } 
+  
+.pulse {
+   animation: pulsate 1.0s ease-in-out infinite both;  
+}
